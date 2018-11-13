@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Weather Forecast</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container bg-col">
+			<div class="row justify-content-center">
+				<div class="col-md-6 screen">
+
+				<h1 class="text-center" style="color: #ffffff">Weather Forecast</h1>
+				<form method="get" class="form">
+						<ul class="list-reset">
+							<li class="form-field">
+								<label for="city-search">City Name</label>
+								<input type="text" id="city-search" placeholder="e.g. Rochester, NY">
+							</li>
+
+							<li class="form-field">
+								<label for="latitude">Latitude</label>
+								<input type="text" id="latitude" placeholder="e.g. 42.9150747" required>
+							</li>
+
+							<li class="form-field">
+								<label for="longitude">Longitude</label>
+								<input type="text" id="longitude" placeholder="e.g. -77.784323" required>
+							</li>
+						</ul>
+					</fieldset>
+					<button class="btn btn-primary ">Get Weather</button>
+				</form>
+		</div>
+	</div>
+</div>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
